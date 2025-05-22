@@ -188,4 +188,7 @@ body{
         justify-content: center;
 
     }
+    .tag-1{
+        gap: 15px;
+    }
 }

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- aos link -->
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="/assets/style.css" />
+
+    <title>food-blog</title>
+  </head>
+  <body>
+    <nav class="navbar bg-white fixed-top" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1800" 
+     data-aos-once="true">
+      <div class="container">
+        <button
+          class="navbar-toggler border-0 !important  "
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start" style="width: 50%;"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close" id="offcanvasNavbarLabel" style="font-size: 25px; width: 100%;">Close Menu</h5>
+          </div>
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="font-size: 20px; font-weight: 500;" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="font-size: 20px; font-weight: 500;" href="#">About</a>
+              </li>
+          </div>
+        </div>
+        <a class="navbar-brand" href="#">My Food</a>
+        <a class="navbar-brand" href="#">Mail</a>
+      </div>
+    </nav>
+
+    <!-- card-group1 -->
+    <div class="card-group container p-3 border-0 !important" style="margin-top: 70px;" data-aos="fade-up"
+     data-aos-duration="3000" data-aos-once="true">
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img1.jpg" class="card-img-top" style="border-top-left-radius: 0;" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">The Perfect Sandwich, A Real NYC Classic</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </p>
+        </div>
+      </div>
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px ; font-weight: 400;">Let Me Tell You About This Steak</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">
+            Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
+      </div>
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">Cherries, interrupted</h3>
+          <p class="card-text" style="text-align: center; font-size: 15px;">
+           Lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>
+          <p class="card-text" style="text-align: center; font-size: 15px;">What else?</p>
+        </div>
+      </div>
+       <div class="card container p-2 border-0 !important">
+        <img src="/assets/img4.jpg" class="card-img-top" style="border-top-right-radius: 0;" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">Once Again, Robust Wine and Vegetable Pasta</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">
+            Lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>        
+        </div>
+      </div>
+
+    <!-- card-group2 -->
+     <div class="card-group container p-3 border-0 !important " style="margin-top: 70px;">
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img5.jpg" class="card-img-top" style="border-top-left-radius: 0;" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">All I Need Is a Popsicle</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </p>
+        </div>
+      </div>
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img6.jpg" class="card-img-top" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px ; font-weight: 400;">Salmon For Your Skin</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">
+            Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
+      </div>
+      <div class="card container p-2 border-0 !important">
+        <img src="/assets/img7.jpg" class="card-img-top" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">The Perfect Sandwich, A Real Classic</h3>
+          <p class="card-text" style="text-align: center; font-size: 15px;">
+           Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>
+        </div>
+      </div>
+       <div class="card container p-2 border-0 !important">
+        <img src="/assets/img8.jpg" class="card-img-top" style="border-top-right-radius: 0;" alt="..." />
+        <div class="card-body p-0">
+          <h3 class="card-text mt-1" style="text-align: center; font-size: 24px; font-weight: 400;">Le French</h3>
+          <p class="card-text mt-3" style="text-align: center; font-size: 15px;">
+            Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+          </p>        
+        </div>
+      </div>
+    </div>
+    </div>
+
+      <!-- pagination -->
+    <nav aria-label="Page navigation example " style="text-align: center; justify-self: center; margin-bottom: 50px; ">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link border-0" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link border-0" href="#">1</a></li>
+    <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+    <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link border-0" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  
+<!-- hero-container -->
+ 
+<div class="card container mb-3 border-0 !important" style=" justify-self: center; align-items: center;">
+  <hr class="container">
+        <h4 class="card-title mt-5 " style="font-family: karma; text-align: center; font-weight: 400; font-size: 24px;">About Me, The Food Man</h4>
+        <img src="/assets/img9.jpg" class="card-img-top" alt="..." style="width: 80%;" >
+        <div class="card-body">
+        <h4 class="card-text" style="font-size: 22px; text-align: center; font-weight: 800;">I am Who I Am!</h4>
+
+          <p class="card-text mt-1" style=" font-family:karma; text-align: center; font-style: italic;">With Passion For Real, Good Food</p>
+          <p class="card-text mt-3" style="text-align: center;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. 
+            I want to share my world with you. 
+            Praesent tincidunt sed tellus ut rutrum. 
+            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. 
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </p>
+        </div>
+  <hr class="container">
+    
+</div>
+
+<!-- footer -->
+ <div class="footer-c container">
+<div class="footer">
+    <h3>FOOTER</h3>
+    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <p>Powered by <a class="foot-w3"   href="index.html">w3.css</a></p>
+</div>
+<div class="blog">
+    <h3>BLOG POSTS</h3>
+    <div class="blog-content">
+            <div class="blog-img">
+            <img src="/assets/foot-1.jpg" alt="">
+        </div>
+        <div class="blod-text">
+            <h5>lorem</h5>
+            <p>Sed mattis nunc</p>
+        </div>
+    </div>
+<hr class="container">
+    <div class="blog-content">
+            <div class="blog-img">
+            <img src="/assets/foot-2.jpg" alt="">
+        </div>
+        <div class="blod-text">
+            <h5>Ipsum</h5>
+            <p>Praes tinci sed</p>
+        </div>
+    </div>
+</div>
+<div class="tags">
+    <h3>POPULAR TAGS</h3>
+    <div class="tag-1">
+    <span class="tra">Travel</span>
+    <span class="tag-2">New York</span>
+    <span class="tag-2">Dinner</span>
+    <span class="tag-2">Salmon</span>
+    <span class="tag-2">France</span>
+    <span class="tag-2">Drinks</span>
+    <span class="tag-2">Ideas</span>
+    <span class="tag-2">Flavours</span>
+    <span class="tag-2">Cuisine</span>
+    <span class="tag-2">Chicken</span>
+    <span class="tag-2">Dressing</span>
+    <span class="tag-2">Fried</span>
+    <span class="tag-2">Fish</span>
+    <span class="tag-2">Duck</span>
+    </div>
+    </div>
+</div>
+
+
+
+ 
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>

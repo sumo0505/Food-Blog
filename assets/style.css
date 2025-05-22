@@ -23,7 +23,7 @@ body{
   outline: none !important;
 }
 .offcanvas-header:hover{
-    background-color: #61616157;
+    /* background-color: #61616157; */
 
 }
 .navbar-toggler:hover{
@@ -32,9 +32,7 @@ body{
 .nav-link:hover{
     background-color: #61616157;
 }
-.offcanvas-body:hover{
-    background-color: #61616157;
-}
+
 
 .page-item a{
     color: black;

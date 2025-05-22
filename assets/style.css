@@ -192,7 +192,7 @@ body{
     .tag-2{
         margin: 5px 5px;
     }
-    .blog-content{
-        gap: 15px;
+    .blog-img img{
+        margin-left: 15px;
     }
 }

@@ -182,12 +182,22 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
     }
     .footer{
         display: flex;
         justify-content: center;
 
     }
-    .
+    .blod-text h5{
+        margin-left: 10px;
+
+    }
+    .blod-text p{
+        margin-left: 10px;
+    }
+    .tag-2{
+        margin: 5px 5px;
+    }
+
+
 }
